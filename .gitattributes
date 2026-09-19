@@ -1,0 +1,6 @@
+* text=auto
+
+# 批处理必须 CRLF，否则 goto/标签会失效；PowerShell 脚本统一 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf

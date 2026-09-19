@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows 中文脚本编码"
+  short_description: "避免 .ps1/.bat/.py 脚本里的中文变成乱码"
+  default_prompt: "Use $windows-cjk-script-encoding to write or fix a Windows script with Chinese output that works on both powershell.exe 5.1 and pwsh 7."
